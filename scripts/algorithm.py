@@ -2,8 +2,8 @@ import json, time
 import requests
 
 # Fill these in with the URLs the organizer gave you when they registered you:
-MARKET_URL = "https://raw.githubusercontent.com/exofri/ensim-trade-center/main/docs/data/market.json"
-HOLDINGS_URL = "http://raw.githubusercontent.com/exofri/ensim-trade-center/main/traders/tester/holdings.json"
+MARKET_URL = "https://raw.githubusercontent.com/exofri/ensim-trade-center/refs/heads/main/docs/data/market.json"
+HOLDINGS_URL = "http://raw.githubusercontent.com/exofri/ensim-trade-center/refs/heads/main/traders/tester/holdings.json"
 
 WINDOW = 20            # rolling window for the moving average / std dev
 K = 1.5                # number of standard deviations for the bands
